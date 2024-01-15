@@ -1,0 +1,76 @@
+
+body {
+    margin: 0;
+    line-height: normal;
+}
+
+
+.close-button {
+    position: absolute; /* Position the button absolutely within its container */
+    top: 20px; /* 20px from the top edge of the container */
+    right: 28px; /* 28px from the right edge of the container */
+    border-radius: 13px;
+    width: 26px;
+    height: 26px;
+    object-fit: cover;
+    /* ... other properties ... */
+}
+.how-to-create {
+    position: absolute;
+    top: 29.24px;
+    left: 21.74px;
+    line-height: 21px;
+    font-weight: 600;
+}
+.lorem-ipsum-dolor {
+    margin: 0;
+}
+.lorem-ipsum-dolor-container {
+    position: absolute;
+    top: 69.45px;
+    left: 21.74px;
+    font-size: 10px;
+    line-height: 20px;
+}
+.divd-flexweb-coins {
+    position: relative;
+    border-radius: 10px;
+    background-color: #272b4a;
+    width: 100%; /* Make width responsive */
+    max-width: 768px; /* Maximum width set to 768px */
+    height: 157px;
+    text-align: left;
+    font-size: 12px;
+    color: #e2e4f5;
+    font-family: Poppins;
+    overflow: hidden;
+    /* ... other properties ... */
+}
+
+/* Media query for viewports larger than 320px and up to 768px */
+@media (min-width: 320px) and (max-width: 768px) {
+    .divd-flexweb-coins {
+        /* Adjust the width, font-size, and potentially other properties as needed */
+        font-size: calc(12px + (14 - 12) * ((100vw - 320px) / (448))); /* Responsive font size */
+        /* You can add more responsive adjustments here */
+    }
+}
+
+/* Optional: Media query for viewports smaller than 320px */
+@media (max-width: 319px) {
+    .divd-flexweb-coins {
+        font-size: 11px; /* Slightly smaller font size for very small devices */
+        /* Adjust other properties if necessary */
+    }
+}
+
+@media (max-width: 330px) {
+    .d-flexweb-coins {
+      text-align: justify;
+      word-wrap: break-word;
+      hyphens: auto;
+    }
+  }
+  
+
+
